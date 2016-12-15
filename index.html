@@ -20,10 +20,22 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <p>Hello world! This is HTML5 Boilerplate. checked</p>
+        <h1>Sortable Grid Using GreenSock <a href="http://greensock.com/draggable" target="_blank">Draggable</a></h1>
+        <div class="layout">
+            <label>
+                <input id="mixed" name="layout" type="radio" value="mixed" checked="" /> Mixed Tile Size</label>
+            <label>
+                <input id="fixed" name="layout" type="radio" value="fixed" /> Fixed Tile Size</label>
+            <label>
+                <input id="column" name="layout" type="radio" value="column" /> Single Column</label>
+        </div>
+        <button id="add">ADD TILE</button>
+        <div id="list"><div clas="tile">Check</div></div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
